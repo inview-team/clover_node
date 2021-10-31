@@ -1,7 +1,8 @@
 version: "3"
 services:
   clover:
-    image: clover-node
+    build:
+      context: .
     container_name: clover-node
     ports:
       - "20203:20203"
