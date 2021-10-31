@@ -1,0 +1,8 @@
+version: "3"
+services:
+  clover:
+    image: clover-node
+    container_name: clover-node
+    ports:
+      - "20203:20203"
+      - "50051:50051"

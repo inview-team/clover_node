@@ -1,0 +1,20 @@
+{
+    "core": {
+        "net": {
+            "listen_addr": "0.0.0.0:20203",
+            "public_port": 20203,
+            "peers_db": "likelib/peers"
+        },
+        "database": {
+            "path": "likelib/database",
+            "clean": false
+        },
+        "keys_dir": "."
+    },
+    "miner": {
+        "threads": 4
+    },
+    "websocket": {
+        "listen_addr": "0.0.0.0:50051"
+    }
+}
